@@ -29,7 +29,8 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         "mercantile",
-        "requests"
+        "requests",
+        "label-studio"
     ],
     entry_points={"console_scripts": ["objectdetector=objectdetector.cli:main"]},
 )
